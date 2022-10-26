@@ -53,8 +53,8 @@
 			rohm,pd-15v-current-limit-ma = <900>;
 		};
 
-		bq2419x: battery-charger@6b {
-			battery_charger: charger {
+		battery-charger@6b {
+			charger {
 				ti,charge-voltage-limit-millivolt = <4320>; /* Adjusted by cell age */
 				ti,fast-charge-current-limit-milliamp = <1664>;
 				ti,temp-range = <0 18 47 58>;
